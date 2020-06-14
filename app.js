@@ -1,3 +1,6 @@
+// ***** Student Name : Ali Abbas Devjiani *****
+
+
 // Chapter 1 : Alerts
 // Chapter # 1 - Task # 1
 // alert("Welcome to Sol@ce - Brings Comfort to Life")
@@ -55,4 +58,42 @@
 // var productTitle = "T-Shirt"
 // var quantity = 5
 // document.write("<b>" + visitor + "</b>" + " ordered " + "<b>" + quantity + "</b>" +" " + "<b>" + productTitle + "</b>"  +"(s) " + "on XYZ Clothing store")
-// Chapter # 3 - Task # 5
+
+// Chapter 4 : Variable Names : Legal & ILLegal
+// Chapter # 4 - Task # 1
+// var one, two, three
+// Chapter # 4 - Task # 2
+// var firstName, lastName, fullName, rank1st, s_No
+// var 1st_Name, 5, %age, +add, 001
+// Chapter # 4 - Task # 3
+// document.write(" <h2> Rules for naming JS variables </h2> <br/><br/> <p> Variable names can only contain numbers, $ and _. For example $my_1stVariable <br/> Variable must begin with a letter, $ or _. For example :  $name,_name or name. <br/> Variable names are case sensitive. <br/> Variable names should not be JS keywords. <br/></p>")
+
+// Chapter 5 : Math Expressions
+// Chapter # 5 - Task # 1
+// var firstNumber = 3
+// var secondNumber = 5
+// var sum = firstNumber + secondNumber
+// document.write("Sum of " + firstNumber + " and " + secondNumber + " is " + sum)
+// Chapter # 5 - Task # 2
+// var firstNumber = 3
+// var secondNumber = 5
+// var diff = firstNumber - secondNumber
+// document.write("Difference of " + firstNumber + " and " + secondNumber + " is " + diff)
+
+// var firstNumber = 3
+// var secondNumber = 5
+// var product = firstNumber * secondNumber
+// document.write("Multiplication of " + firstNumber + " and " + secondNumber + " is " + product)
+
+// var firstNumber = 3
+// var secondNumber = 5
+// var division = firstNumber / secondNumber
+// document.write("Division of " + firstNumber + " and " + secondNumber + " is " + division)
+
+
+// var firstNumber = 3
+// var secondNumber = 5
+// var modulus = firstNumber % secondNumber
+// document.write("Modulus of " + firstNumber + " and " + secondNumber + " is " + modulus)
+
+// Chapter # 5 - Task # 3

@@ -257,3 +257,207 @@
 // Chapter 9-11 : User Input & Conditional Statement
 // Chapter # 9-11 - Task # 1
 
+// var city = prompt("Enter the name of City : ")
+// if (city === "Karachi"){
+//     alert("Welcome to city of Lights")
+// } 
+
+// Chapter # 9-11 - Task # 2
+// var gender = prompt("Enter the Gender : ")
+// if (gender === "MALE" | gender === "male" | gender === "Male"){
+//     alert("Good Morning Sir")
+// }
+// if (gender === "FEMALE" | gender === "female" | gender === "Female"){
+//     alert("Good Mroning Ma'am")
+// }
+
+// Chapter # 9-11 - Task # 3
+// var color = prompt("Enter the Color of Traffic Signal : ")
+// if (color === "Red"){
+//     alert("Must Stop")
+// }
+// if (color === "Yellow"){
+//     alert("Ready to move")
+// }
+// if (color === "Green"){
+//     alert("Move now")
+// }
+
+// Chapter # 9-11 - Task # 4
+// var fuel = +prompt("Enter the remaining Fuel in Car (in litres) : ")
+// if (fuel < 0.25){
+//     alert("Please refill the fuel in your car")
+// }
+
+// Chapter # 9-11 - Task # 5
+//(a)
+// var a=4;
+// if(++a === 5){
+//     alert("given condition for variable a is true")
+// }
+// Output : alert appear
+
+//(b)
+// var b=82;
+// if(b++ === 83){
+//     alert("given condition for variable b is true")
+// }
+// Output : alert do not appear
+
+//(c)
+// var c=12;
+// if(c++ === 13){
+//     alert("condition 1 is true");
+// }
+// if(c===13){
+//     alert("condition 2 is true");
+// }
+// if(++c<14){
+//     alert("condition 3 is true");
+// }
+// if(c===14){
+//     alert("condition 4 is true");
+// }
+// Output : condition 2 and condition 4 are correct
+
+//(d)
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if(totalCost === laborCost + materialCost){
+//     alert("The cost equals");
+// }
+// Output : aleart appear
+
+//(e)
+// if(ture){
+//     alert("True");
+// }
+// if(false){
+//     alert("False");
+// }
+// Output : no alert appear
+
+//(f)
+// if("car"<"cat"){
+//     alert("car is smaller than cat");
+// }
+// Output : nothing happen
+
+
+// Chapter # 9-11 - Task # 6
+// var marksObtSub1 = +prompt("Enter the marks Obtained in Subject 1 : ")
+// var marksObtSub2 = +prompt("Enter the marks Obtained in Subject 2 : ")
+// var marksObtSub3 = +prompt("Enter the marks Obtained in Subject 3 : ")
+// var totalMarksObt = (marksObtSub1 + marksObtSub2 + marksObtSub3)
+// var totalMarks = 300
+// var per = (totalMarksObt/totalMarks*100)
+// var grade = ""
+// var remarks = ""
+
+// if (per >= 80){
+//     grade = ("A-One");
+//     remarks = ("Excellent");
+// }
+// if (per >= 70 & per < 80){
+//     grade = ("A");
+//     remarks = ("Good");
+// }
+// if (per >= 60 & per < 70){
+//     grade = ("B");
+//     remarks = ("You need to improve");
+// }
+// if (per < 60){
+//     grade = ("Fail");
+//     remarks = ("Sorry");
+// }
+
+// document.write ("<h2>Marks Sheet</h2>")
+// document.write ("<br/><br/>")
+// document.write ("Total marks : " + totalMarks + "<br/>")
+// document.write ("Marks Obtained : " + totalMarksObt + "<br/>")
+// document.write ("Percentage : " + per + "%" + "<br/>")
+// document.write ("Grade : " + grade + "<br/>")
+// document.write ("Remarks : " + remarks + "<br/>")
+
+// Chapter # 9-11 - Task # 7
+// var secret = 5
+// var guess = +prompt("Guess the Secret Number : ")
+// if (guess === secret){
+//     alert("Bingo! Correct Answer")
+    
+// }
+
+// else if (guess === secret+1){
+//     alert("Close enough to the correct answer")
+    
+// }
+
+// else{
+//     alert("Try Again ! Better luck next time")
+    
+// }
+
+// Chapter # 9-11 - Task # 8
+// var userInput = +prompt("Enter the number to check whether is divisible by 3 or not : ")
+// var result=userInput%3
+// if (result===0){
+//     alert("Your entered number "+ userInput + " is divisible by 3")
+// }
+// else {
+//     alert("Your entered number "+ userInput + " is not divisible by 3")
+// }
+
+// Chapter # 9-11 - Task # 9
+// var userInput = +prompt("Enter the number to check whether even or odd : ")
+// var result=userInput%2
+// if (result === 0){
+//     alert("The Number you entered is an Even Number")
+// }
+// else {
+//     alert("The Number you entered is an Odd Number")
+// }
+
+// Chapter # 9-11 - Task # 10
+// var temp = +prompt("Enter the Temperature : ")
+// if(temp > 40){
+//     alert("It is too hot outside")
+// }
+// if(temp > 30 & temp < 40){
+//     alert("The Weather today is Normal")
+// }
+// if(temp > 20 & temp < 30){
+//     alert("Today's weather is cool")
+// }
+// if(temp >10 & temp < 20){
+//     alert("OMG ! Today's weather is so Cool")
+// }
+// else{
+//     alert("Enter the temperature value above 10")
+// }
+
+// Chapter # 9-11 - Task # 11
+// var firstNumber = +prompt("Enter the First Number : ")
+// var secondNumber = +prompt("Enter the Second Number : ")
+// var operator = prompt("Enter the Operator from : + , - , * , / , %  : ")
+// if (operator === "+"){
+//     alert("The sum of " + firstNumber + " & " + secondNumber + " is : " + (firstNumber+secondNumber))
+// }
+// else if (operator === "-"){
+//     alert("The difference of " + firstNumber + " & " + secondNumber + " is : " + (firstNumber-secondNumber))
+// }
+// else if (operator === "*"){
+//     alert("The product of " + firstNumber + " & " + secondNumber + " is : " + (firstNumber*secondNumber))
+// }
+// else if (operator === "/"){
+//     alert("The division of " + firstNumber + " & " + secondNumber + " is : " + (firstNumber/secondNumber))
+// }
+// else if (operator === "%"){
+//     alert("The modulus of " + firstNumber + " & " + secondNumber + " is : " + (firstNumber%secondNumber))
+// }
+// else{
+//     alert("Invalid Operator ! Try Again")
+// }
+
+// If Else & Else If Statement, Testing Set of Conditions
+// Chapter # 12-13 - Task # 1

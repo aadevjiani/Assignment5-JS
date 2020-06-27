@@ -1,5 +1,5 @@
 // ***** Student Name : Ali Abbas Devjiani *****
-
+// *** Assignment Chapter 1 to 20
 
 // Chapter 1 : Alerts
 // Chapter # 1 - Task # 1
@@ -461,3 +461,356 @@
 
 // If Else & Else If Statement, Testing Set of Conditions
 // Chapter # 12-13 - Task # 1
+// var userInput = prompt("Enter a Character : A-Z or a-z or 0-9")
+// var ascii = userInput.charCodeAt(0)
+// if (ascii >=65 && ascii <=90){
+//     alert("The character you entered " + userInput + " is an Upper Case letter")
+//     document.write("The character you entered <b>" + userInput + "</b> is an Upper Case letter")
+// }
+//     else if (ascii >=97 && ascii <=122){
+//     alert("The character you entered " + userInput + " is a Lower Case letter")
+//     document.write("The character you entered <b>" + userInput + "</b> is a Lower Case letter")
+// }
+//     else if (ascii >=48 && ascii <=57){
+//     alert("The character you entered " + userInput + " is a Number")
+//     document.write("The character you entered <b>" + userInput + "</b> is a Number")
+// }
+// else{
+//     alert("Please try again ! Something Wrong has entered")
+// }
+
+// Chapter # 12-13 - Task # 2
+// var userInputNo1 = +prompt("Enter the First Number : ")
+// var userInputNo2 = +prompt("Enter the Second Number : ")
+// if (userInputNo1 > userInputNo2){
+//     alert("The greater number from the two is " + userInputNo1)
+// }{
+// else if (userInputNo2 > userInputNo1){
+//     alert("The greater number from the two is " + userInputNo2)
+// }
+// else if (userInputNo1 = userInputNo2){
+//     alert("The Numbers you entered are equal")
+// }
+// else{
+//     alert("Kindly input Number and Try Again")
+// }
+
+// Chapter # 12-13 - Task # 3
+// var userInput = +prompt("Enter the Number : ")
+// if (userInput > 0){
+//     alert("The number you entered " + userInput + " is a positive number")
+// }
+// else if (userInput < 0){
+//     alert("The number you entered " + userInput + " is a negative number")
+// }
+// else if (userInput == 0){
+//     alert("You have entered " + userInput + " is a neutral number")
+// }
+// else{
+//     alert("Kindly input Number and Try Again")
+// }
+
+// Chapter # 12-13 - Task # 4
+// var userInput = prompt("Enter the Character : A-Z : ")
+// if (userInput === "A" || userInput === "E" || userInput === "I" || userInput === "O" || userInput === "U" || userInput === "a" || userInput === "e" || userInput === "i" || userInput === "o" || userInput === "u"){
+//     alert("TRUE :: The entered character " + userInput + " is a vowel")
+// }
+// else{
+//     alert("FALSE :: The entered character " + userInput + " is not a vowel")
+// }
+
+// Chapter # 12-13 - Task # 5
+// var passWord="password"
+// for (i=0; i<=1; i++){
+//     var userPassWord = prompt("Please enter your Password : ")
+//     if (userPassWord === passWord){
+//         alert("Correct! The password you entered matches the original password")
+//         break
+//     }
+//     else{
+//         alert("Incorrect Password")
+//     }    
+// }
+
+// Chapter # 12-13 - Task # 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18){
+//     greeting = "Good day";
+// }
+// else{
+//     greeting = "Good evening";
+// }
+// alert(greeting)
+
+// Chapter # 12-13 - Task # 7
+// var time = prompt("Enter the time in 24-Hour Format : 0000-2359 ")
+// if (time >=0000 && time < 1200){
+//     alert("Good Morning")
+// }
+// else if (time >= 1200 && time <1700){
+//     alert("Good Afternoon")
+// }
+// else if (time >= 1700 && time <2100){
+//     alert("Good Evening")
+// }
+// else if (time >= 2100 && time <=2359){
+//     alert("Good Night")
+// }
+// else{
+//     alert("Invalid Input ! Try again")
+// }
+
+// Arrays
+// Chapter # 14-16 - Task # 1
+// var litStudentName = [];
+
+// Chapter # 14-16 - Task # 2
+// var objStudentName = [];
+
+// Chapter # 14-16 - Task # 3
+// var stringArray = ["Summer","Winter","Autumn","Spring"]
+
+// Chapter # 14-16 - Task # 4
+// var numberArray = [2,4,6,8,10]
+
+// Chapter # 14-16 - Task # 5
+// var booleanArray = ["true","false"]
+
+// Chapter # 14-16 - Task # 6
+// var mixArray = ["ali","saylani","25","true"]
+
+// Chapter # 14-16 - Task # 7
+// var eduQual = ["SSC","HSC","BSC","BS","BCOM","MS","M. Phil.","PhD"]
+// document.write("<h1> Qualification </h1>")
+// for (i=0; i<=7; i++){
+//     document.write(i+1+") "+eduQual[i]+"<br/>")
+// }
+
+// Chapter # 14-16 - Task # 8
+// var student = ["Michael","John","Tony"];
+// var marksObt = [320,230,480];
+// var totalMarks = 500;
+
+// for (var i=0; i<=2; i++){
+// document.write("Score of " + student[i] + " is " + marksObt[i] + ". Percentage : " + ((marksObt[i]/totalMarks)*100) + "% <br/>")
+// }
+
+// Chapter # 14-16 - Task # 9
+// var colors = ["Yellow","Green","Blue","White","Black"]
+// document.write("<h2>List of Colors</h2>")
+// document.write(colors + "</br> </br>" )
+
+// var firstColor = prompt("Enter the color name to be added at start : ")
+// var lastColor = prompt("Enter the color name to be added at last : ")
+
+
+// colors.unshift(firstColor)
+// document.write("<h2>a. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+
+// colors.push(lastColor)
+// document.write("<h2>b. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+
+// var addColor1 = prompt("Enter the color name to be added at start : ")
+// var addColor2 = prompt("Enter the color name to be added at last : ")
+
+// colors.unshift(addColor1)
+// colors.unshift(addColor2)
+// document.write("<h2>c. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+// colors.shift()
+// document.write("<h2>d. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+// colors.pop()
+// document.write("<h2>e. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+// var addColorIndex = prompt("Enter the index at which you want to add the color : ")
+// var addColorName = prompt("Enter the color name which you want to add to list : ")
+
+// colors.splice(addColorIndex,0,addColorName)
+// document.write("<h2>f. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+// var delColorIndex = prompt("Enter the index at which you want to delete the color : ")
+// var delColorCount = prompt("Enter the no. of colors which you want to delete from list : ")
+
+// colors.splice(delColorIndex,delColorCount)
+// document.write("<h2>g. Updated List of Colors</h2>")
+// document.write(colors + "</br> </br>")
+
+// Chapter # 14-16 - Task # 10
+// var scores = [320,230,480,120]
+// document.write("Scores of Students :" + scores + "<br/>");
+// scores.sort()
+// document.write(" Ordered Scores of Students :" + scores);
+
+// Chapter # 14-16 - Task # 11
+// var citiesList = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
+// var selectedCitiesList = citiesList.slice(2,4)
+// document.write("Cities List : <br/>")
+// document.write(citiesList + "<br/><br/>")
+
+// document.write("Selected Cities List : <br/>")
+// document.write(selectedCitiesList + "<br/><br/>")
+
+// Chapter # 14-16 - Task # 12
+
+// var arr = ["This","is","my","cat"]
+// document.write("Array : <br/>" + arr + "<br/><br/>")
+// var join = arr.join(" ")
+// document.write("String : <br/>" + join) 
+
+// Chapter # 14-16 - Task # 13
+// var device = ["keyboard","mouse","printer","monitor"]
+// document.write("Devices : <br/>" + device + "<br/><br/><br/>")
+// var firstDevice = device.shift()
+// document.write("Out : <br/>" + firstDevice + "<br/>")
+// var secondDevice = device.shift()
+// document.write("Out : <br/>" + secondDevice + "<br/>")
+// var thirdDevice = device.shift()
+// document.write("Out : <br/>" + thirdDevice + "<br/>")
+// var fourthDevice = device.shift()
+// document.write("Out : <br/>" + fourthDevice + "<br/>")
+
+// Chapter # 14-16 - Task # 14
+// var device = ["keyboard","mouse","printer","monitor"]
+// document.write("Devices : <br/>" + device + "<br/><br/><br/>")
+// var firstDevice = device.pop()
+// document.write("Out : <br/>" + firstDevice + "<br/>")
+// var secondDevice = device.pop()
+// document.write("Out : <br/>" + secondDevice + "<br/>")
+// var thirdDevice = device.pop()
+// document.write("Out : <br/>" + thirdDevice + "<br/>")
+// var fourthDevice = device.pop()
+// document.write("Out : <br/>" + fourthDevice + "<br/>")
+
+// Chapter # 14-16 - Task # 15
+// var phoneManf = ["Apple","Samsung","Motorla","Nokia","Sony","Haier"]
+// document.write(
+//     "<select>"+
+//     "<option>" + phoneManf[0]+"</option>"+
+//     "<option>" + phoneManf[1]+"</option>"+
+//     "<option>" + phoneManf[2]+"</option>"+
+//     "<option>" + phoneManf[3]+"</option>"+
+//     "<option>" + phoneManf[4]+"</option>"+
+//     "<option>" + phoneManf[5]+"</option>"+
+//     "</select>"
+// )
+
+//Array & Loops
+// Chapter # 17-20 - Task # 1
+// var mdArray = [[],[],[]]
+
+// Chapter # 17-20 - Task # 2
+// var mdArray1 = [0,1,2,3]
+// var mdArray2 = [1,0,1,2]
+// var mdArray3 = [2,1,0,1]
+// document.write(mdArray1 + "<br/>" + mdArray2 + "<br/>" + mdArray3 + "<br/>")
+
+// Chapter # 17-20 - Task # 3
+// for (var i = 1; i <= 10; i++){
+//     document.write(i + "<br/>")
+// }
+
+// Chapter # 17-20 - Task # 4
+// var table = prompt("Enter a number to show its multiplication table")
+// var length = prompt("Enter the length of multiplication table : ")
+// document.write("Multiplication table of  " + table + "<br/>")
+// document.write("Length  " + length + "<br/>")
+// document.write("<br/>")
+// for (i=1; i<=length; i++){
+//     document.write(table + " x " + i + " = " + (i*table) + "<br/>")
+// }
+
+// Chapter # 17-20 - Task # 5
+// var fruits = ["apple","banana","mango","orange","strawberry"]
+// for (i=0; i<=fruits.length-1; i++)
+// document.write(fruits[i] + "<br/>")
+// document.write("<br/>")
+
+// for (j=0; j<=fruits.length-1; j++)
+// document.write("Element at Index " + j + " is " + fruits[j] + "<br/>")
+
+// Chapter # 17-20 - Task # 6
+
+// var count
+// var revCount
+// var evenNo
+// var oddNo
+// var series
+
+// document.write("<h4> Counting : </h4>")
+//  for(count=1; count<=15; count++){
+//    document.write(count + ",")
+// }
+
+// document.write("<h4> Reverse counting : </h4>")
+//  for(revCount=10; revCount>=1; (revCount=revCount-1)){
+//    document.write(revCount + ",")
+// }
+
+// document.write("<h4> Even : </h4>")
+//  for(evenNo=0; evenNo<=20; (evenNo=evenNo+2)){
+//    document.write(evenNo + ",")
+// }
+
+
+// document.write("<h4> Odd : </h4>")
+//  for(oddNo=1; oddNo<=19; (oddNo=oddNo+2)){
+//    document.write(oddNo + ",")
+// }
+
+// document.write("<h4> Series : </h4>")
+//  for(evenNo=0; evenNo<=20; (evenNo=evenNo+2)){
+//    document.write(evenNo + "k,")
+// }
+
+// Chapter # 17-20 - Task # 7
+
+// var bakery = ["cake","apple pie","cookie","chips","patties"];
+// var search = prompt("Welcome to ABC Bakery. What do you Want to order sir/ma'am? ")
+// var itemLoc = bakery.indexOf(search)
+
+// if(bakery.indexOf(search) !== -1){
+//   alert(search +" is available at index " + itemLoc + " in our bakery")
+// }else{
+//   alert("We are Sorry ! " + search + " is not available in our bakery")
+// }
+
+// Chapter # 17-20 - Task # 8
+// var numList = [24,53,78,91,12]
+// var largestNo = 0
+
+// document.write("Array items : " + numList + "<br/>")
+// for (i=0; i<=numList.length; i++){
+//   if(numList[i] > largestNo){
+//     largestNo = numList[i]
+//   }
+// }
+// document.write("The largest number is : " + largestNo)
+
+// Chapter # 17-20 - Task # 9
+// var numList = [24,53,78,91,12]
+// var smallestNo = Math.min.apply(Math,numList)
+
+// document.write("Array items : " + numList + "<br/>")
+
+// for (i=0; i<=numList.length; i++){
+//   if(numList[i] < smallestNo){
+//     smallestNo = numList[i]
+//   }
+// }
+// document.write("The smallest number is : " + smallestNo)
+
+
+// Chapter # 17-20 - Task # 10
+// for (i=5; i<=100; (i=i+5)){
+//   document.write(i + ",")
+// }
